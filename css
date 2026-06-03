@@ -122,11 +122,34 @@ input:nth-of-type(1) {
 }
 
 #threadWatcher{
-  position: relative !important;
-  transform: rotate(45deg);
-  background: #000000ff!important;
-  color: #666677!important;
-  border: 1px solid #000!important;
+  background: #00f;
+  font-family: 'Monaco 9';
+  font-size: 16px;
+  border: none;
+  padding: 0;
+}
+#twHeader {
+  font-weight: normal;
+  background: linear-gradient(#00f, black);
+  border: 1px solid black;
+  padding-top: 2px !important;
+  outline: 1px solid #00f;
+}
+#watchList > li {
+  border-top: none !important;
+  margin: 0 !important;
+  color: #00f;
+}
+#watchList > li > a {
+  color: #00f !important;
+}
+#twPrune {
+  width: 0;
+}
+#watchList{
+  background: #000020;
+  border: 1px solid #00f;
+  background: linear-gradient(black, #00009e, black);
 }
 /* Borland code color palette*/
 pre.prettyprint {
