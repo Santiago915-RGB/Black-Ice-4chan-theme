@@ -184,3 +184,12 @@ body:after {
   background-position: 100% 100%;
   background-size: 320px;
 }
+
+.closed:after {
+  width: 371px;
+  content: url("https://i.ibb.co/JjfPvSzt/sub-zero.gif")
+}
+.closed {
+  font-size: 0px !important;
+  padding: 49.5px 0px !important;
+}

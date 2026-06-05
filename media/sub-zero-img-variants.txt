@@ -1,0 +1,9 @@
+for people with Epilepsy disorders you can replace the gif with one of the following images
+
+White Text:
+https://i.ibb.co/KcGnK2yj/sub-zero-white-text.png
+
+Blue Text:
+https://i.ibb.co/FqB858H8/sub-zero-blue-text.png
+
+You can find the source line around the line 190 in the .close:after part
