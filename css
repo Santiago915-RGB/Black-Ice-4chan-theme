@@ -1,3 +1,11 @@
+#boardNavDesktop, #togglePostFormLink {
+  z-index: 2 !important;
+}
+
+#search-box, .extButton {
+  z-index: -1;
+}
+
 #togglePostFormLink {
   position: fixed;
   top: 3px;
@@ -166,10 +174,9 @@ hr.abovePostForm, hr.aboveMidAd {
   border-bottom: 1px solid black !important;
   position: fixed !important;
   top: 0px !important;
-  z-index: -2;
   width: 100vw !important;
   left: 0px;
-  z-index: 0 !important;
+  z-index: 1 !important;
 }
 
 #boardNavDesktop {
@@ -282,10 +289,10 @@ body:after {
 /* checkboxes and threadhidebutton*/
 
 .threadHideButton {
-  content: url("https://litter.catbox.moe/g0whaf.png");
+  content: url("https://files.catbox.moe/aj7vjk.png");
 }
 .threadHideButton:hover {
-  content: url("https://litter.catbox.moe/ephux5.png");
+  content: url("https://files.catbox.moe/ghhkvu.png");
 }
 
 input[type="checkbox"] {
