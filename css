@@ -25,8 +25,7 @@ label > input {
   position: relative;
   bottom: 2px;
 }
-#togglePostFormLink > a:hover
-{
+#togglePostFormLink > a:hover {
   bottom: 0px;
   padding-bottom: 2px;
 }
@@ -76,8 +75,10 @@ hr:nth-of-type(3), hr:nth-of-type(4) {
   color: #0000;
 }
 .adl > a {
+  border-bottom: 1px dotted;
   position: relative;
-  top: 32px;
+  top: 1px;
+  left: 1px;
 }
 
 .capcodeMod {
