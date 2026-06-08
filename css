@@ -1,3 +1,17 @@
+#absbot {
+  text-align: right !important;
+}
+
+.bottomCtrl {
+  float: left;
+  position: relative;
+  bottom: -91px;
+  background: #f00;
+  border: 1px solid black;
+  background: linear-gradient(#7171ff, #33144d) !important;
+  right: 5px;
+}
+
 label > input {
   position: relative;
   top: 3px;
@@ -122,7 +136,7 @@ hr:nth-of-type(3), hr:nth-of-type(4) {
 padding: 0 !important;
 }
 
-.boardList{
+#boardNavDesktop > .boardList {
   width: 20vw !important;
   font-family: 'Mona12';
   font-size: 12px;
@@ -412,4 +426,3 @@ input[type="checkbox"]:focus-visible {
   display: none;
 }
 */
-
