@@ -1,7 +1,15 @@
-#navtopright > a:hover, #togglePostFormLink > a:hover {
+.boardTitle:before {
+  content: url("https://litter.catbox.moe/nl5nkm.png");
+  width: 6px;
+  height: 19;
+  position: fixed;
+  top: 0px;
+  margin-left: -16px;
+}
+
+#navtopright > a:hover, #togglePostFormLink:hover {
   background: black;
-  height: 85%;
-  background: black;
+  height: 16px;
   position: relative;
   padding-top: 3px;
   position: relative;
@@ -23,7 +31,7 @@
 #toggleMsgBtn{
   position: absolute;
   top: 4px;
-  right: 133px;
+  right: calc(40px + 7rem);
   content: url('https://files.catbox.moe/uw859r.png');
   width: 16px;
   height: 12px;
