@@ -1,3 +1,18 @@
+#navtopright > a:hover, #togglePostFormLink > a:hover {
+  background: black;
+  height: 85%;
+  background: black;
+  position: relative;
+  padding-top: 3px;
+  position: relative;
+  bottom: 2px;
+}
+#togglePostFormLink > a:hover
+{
+  bottom: 0px;
+  padding-bottom: 2px;
+}
+
 .globalMessage, .globalMessage > h3 > a {
   color: #ff8080 !important;
 }
