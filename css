@@ -1,4 +1,26 @@
+input[name="onlyimgdel"]:before {
+margin: 0px !important;
+  height: 22px;
+  width: 13px;
+  border: 0px solid #0000 !important;
+  content: url("https://i.ibb.co/LdFZR7KB/btn-init.png");
+  border-left: 1px solid black !important;
+  border-right: 1px solid black !important;
+  position:absolute;
+  right: 30px;
+}
 
+#styleSelector {
+  background: url('https://i.ibb.co/bRgtShnx/btn-style.png');
+  color: #0000;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+  height: 22px;
+  width: 31px;
+}
 
 input[value="Delete"]{
   display: inline;
