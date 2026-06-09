@@ -1,3 +1,15 @@
+input[value="Delete"]{
+  background: url('https://i.ibb.co/tMVwHg5j/btn-delete.png');
+  border-left: 1px solid black;
+  background: https: //litter.catbox.moe/mp8sab3cvfm6mpqh.png;
+  width: 32px;
+  height: 22px;
+  border: 1px solid black !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  color: #0000 !important;
+}
+
 #absbot {
   text-align: right !important;
 }
@@ -10,6 +22,7 @@
   border: 1px solid black;
   background: linear-gradient(#7171ff, #33144d) !important;
   right: 5px;
+  height: 22px;
 }
 
 label > input {
