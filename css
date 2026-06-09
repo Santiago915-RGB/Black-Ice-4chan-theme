@@ -1,8 +1,11 @@
+
+
 input[value="Delete"]{
+  display: inline;
   background: url('https://i.ibb.co/tMVwHg5j/btn-delete.png');
   border-left: 1px solid black;
   background: https: //litter.catbox.moe/mp8sab3cvfm6mpqh.png;
-  width: 32px;
+  width: 34px;
   height: 22px;
   border: 1px solid black !important;
   border-top: none !important;
@@ -23,6 +26,8 @@ input[value="Delete"]{
   background: linear-gradient(#7171ff, #33144d) !important;
   right: 5px;
   height: 22px;
+  width: 33rem;
+  color: #0000;
 }
 
 label > input {
@@ -433,6 +438,18 @@ input[type="checkbox"]:focus-visible {
   outline: 2px solid #a5b4fc;
   outline-offset: 2px;
 }
+input[name="onlyimgdel"]{
+margin: 0px !important;
+  height: 22px;
+  width: 32px;
+  border: 0px solid #0000 !important;
+  background: url("https://i.ibb.co/tp6zdH1s/btn-delete-img-only.png");
+  position: absolute;
+  border-left: 1px solid black !important;
+  border-right: 1px solid black !important;
+
+}
+
 
 /* uncomment for hiding the "advertise on 4chan" element'
 .adl > a {
