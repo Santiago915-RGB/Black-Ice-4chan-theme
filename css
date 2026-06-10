@@ -1,6 +1,11 @@
 .pagelist {
-  background: black;
-  border: 1px solid gray;
+  border: 1px solid gray !important;
+  border: 1px solid black !important;
+  border-left: 0px none !important;
+  background: linear-gradient(#7171ff, #33144d) !important;
+  position: relative;
+  top: 93px;
+  height: 16px;
 }
 
 
