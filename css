@@ -8,15 +8,10 @@
   height: 16px;
 }
 
-.pagelist {
-  background: black;
-  border: 1px solid gray;
-}
-
 #footer-links {
   width: fit-content;
   border-bottom: 1px dotted #34345C;
-  margin-top: -87px !important;
+  margin-top: -61px !important;
   color: #0000;
 }
 
@@ -122,6 +117,7 @@ input[value="Delete"]{
   width: 116px;
   font-size: 0px;
   border-right: 0px solid;
+  margin-top: -63px;
 }
 
 label > input {
