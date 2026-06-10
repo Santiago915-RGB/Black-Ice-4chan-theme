@@ -1,3 +1,58 @@
+.pages > a:nth-of-type(9) {
+  content: url("https://files.catbox.moe/p5ijef.png");
+}
+.pages > a:nth-of-type(8) {
+  content: url("https://files.catbox.moe/2g311g.png");
+}
+.pages > a:nth-of-type(7) {
+  content: url("https://files.catbox.moe/9bgtdi.png");
+}
+.pages > a:nth-of-type(6) {
+  content: url("https://files.catbox.moe/7es4ur.png");
+}
+.pages > a:nth-of-type(5) {
+  content: url("https://files.catbox.moe/mwid20.png");
+}
+.pages > a:nth-of-type(4) {
+  content: url("https://files.catbox.moe/2dj0d0.png");
+}
+.pages > a:nth-of-type(3) {
+  content: url("https://files.catbox.moe/v4g244.png");
+}
+.pages > a:nth-of-type(2) {
+  content: url("https://files.catbox.moe/w4zm0u.png");
+}
+
+.pages > strong > a {
+  content: url("https://files.catbox.moe/gxc5sp.png");
+  border-right: 1px solid black;
+  position: relative;
+  bottom: 7px;
+  left: -9px;
+}
+
+.pages > a {
+  content: url("https://files.catbox.moe/s1q4uu.png");
+  position: relative;
+  top: -7px;
+  border-right: 1px solid black;
+  right: 9px;
+}
+
+.pages {
+  font-size: 0px !important;
+}
+
+.depagelink {
+  content: url('https://files.catbox.moe/p7eqvz.png');
+  width: 31px !important;
+  height: 22px !important;
+  padding: 0px;
+  margin-top: -3px;
+  margin-left: -11px;
+  border-right: 1px solid black;
+}
+
 .pagelist {
   border: 1px solid gray !important;
   border: 1px solid black !important;
@@ -6,6 +61,10 @@
   position: relative;
   top: 93px;
   height: 16px;
+  margin-top: -65px !important;
+  margin-left: 105px !important;
+  font-family: 'Mona12';
+  color: #0000 !important;
 }
 
 #footer-links {
