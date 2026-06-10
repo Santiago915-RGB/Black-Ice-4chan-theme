@@ -8,6 +8,10 @@
   height: 16px;
 }
 
+.pagelist {
+  background: black;
+  border: 1px solid gray;
+}
 
 #footer-links {
   width: fit-content;
@@ -45,7 +49,7 @@ option {
 }
 
 .stylechanger:after {
-  content: url('https://i.ibb.co/LzJ3Nym0/btn-end.png');
+  content: url("https://files.catbox.moe/hjc893.png");
   position: relative;
   left: 73px;
 }
@@ -67,7 +71,7 @@ margin: 0px !important;
   height: 22px;
   width: 13px;
   border: 0px solid #0000 !important;
-  content: url("https://i.ibb.co/LdFZR7KB/btn-init.png");
+  content: url("https://files.catbox.moe/odfr4s.png");
   border-left: 1px solid black !important;
   border-right: 1px solid black !important;
   position:absolute;
@@ -75,7 +79,7 @@ margin: 0px !important;
 }
 
 #styleSelector {
-  background: url('https://i.ibb.co/bRgtShnx/btn-style.png');
+  background: url('https://files.catbox.moe/6z6tv0.png');
   border-left: 1px solid black;
   border-right: 1px solid black;
   border-radius: 0px;
@@ -90,7 +94,7 @@ margin: 0px !important;
 
 input[value="Delete"]{
   display: inline;
-  background: url('https://i.ibb.co/tMVwHg5j/btn-delete.png');
+  background: url("https://files.catbox.moe/ujz0fb.png");
   border-left: 1px solid black;
   background: https: //litter.catbox.moe/mp8sab3cvfm6mpqh.png;
   width: 34px;
@@ -131,7 +135,7 @@ label > input {
 }
 
 .boardTitle:before {
-  content: url("https://litter.catbox.moe/nl5nkm.png");
+  content: url("https://files.catbox.moe/zif89e.png");
   width: 6px;
   height: 19;
   position: fixed;
@@ -533,7 +537,7 @@ margin: 0px !important;
   height: 22px;
   width: 32px;
   border: 0px solid #0000 !important;
-  background: url("https://i.ibb.co/tp6zdH1s/btn-delete-img-only.png");
+  background: url("https://files.catbox.moe/vl2wat.png");
   position: absolute;
   border-left: 1px solid black !important;
   border-right: 1px solid black !important;
