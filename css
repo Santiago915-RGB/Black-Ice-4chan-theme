@@ -1,3 +1,21 @@
+.stylechanger:after {
+  content: url('https://i.ibb.co/LzJ3Nym0/btn-end.png');
+  position: relative;
+  left: 73px;
+}
+
+.deleteform {
+  display: flex;
+  gap: 16px;
+  position: absolute;
+  left: 14px;
+}
+.stylechanger {
+  font-size: 0px;
+  margin-left: 35px;
+}
+
+
 input[name="onlyimgdel"]:before {
 margin: 0px !important;
   height: 22px;
@@ -12,7 +30,6 @@ margin: 0px !important;
 
 #styleSelector {
   background: url('https://i.ibb.co/bRgtShnx/btn-style.png');
-  color: #0000;
   border-left: 1px solid black;
   border-right: 1px solid black;
   border-radius: 0px;
@@ -20,6 +37,9 @@ margin: 0px !important;
   border-bottom: 0px;
   height: 22px;
   width: 31px;
+  font-size: 0px;
+  position: absolute;
+  margin-left: 43px;
 }
 
 input[value="Delete"]{
@@ -32,7 +52,8 @@ input[value="Delete"]{
   border: 1px solid black !important;
   border-top: none !important;
   border-bottom: none !important;
-  color: #0000 !important;
+  font-size: 0px;
+  margin-left: -1px;
 }
 
 #absbot {
@@ -48,8 +69,9 @@ input[value="Delete"]{
   background: linear-gradient(#7171ff, #33144d) !important;
   right: 5px;
   height: 22px;
-  width: 33rem;
-  color: #0000;
+  width: 116px;
+  font-size: 0px;
+  border-right: 0px solid;
 }
 
 label > input {
