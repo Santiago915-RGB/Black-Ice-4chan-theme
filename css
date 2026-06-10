@@ -1,15 +1,36 @@
-option {
-  font-size: 14px;
+#footer-links {
+  width: fit-content;
+  border-bottom: 1px dotted #34345C;
+  margin-top: -87px !important;
+  color: #0000;
 }
 
-#footer-links {
-  color: #0000;
+.absBotDisclaimer {
+  display: none;
+}
+
+#delform > hr:last-of-type {
+  display: none !important;
+}
+
+.open-qr-wrap > a {
+  color: black !important;
+}
+
+#boardNavDesktopFoot {
+  display: none;
+}
+
+option {
+  font-size: 14px;
 }
 
 .absBotText {
   width: 22rem;
   float: right;
-  margin-right: 15rem;
+  margin-right: 20rem;
+  position: relative;
+  top: 40px;
 }
 
 .stylechanger:after {
