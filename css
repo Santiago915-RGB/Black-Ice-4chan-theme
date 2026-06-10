@@ -1,3 +1,17 @@
+option {
+  font-size: 14px;
+}
+
+#footer-links {
+  color: #0000;
+}
+
+.absBotText {
+  width: 22rem;
+  float: right;
+  margin-right: 15rem;
+}
+
 .stylechanger:after {
   content: url('https://i.ibb.co/LzJ3Nym0/btn-end.png');
   position: relative;
