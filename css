@@ -1,3 +1,9 @@
+.pagelist {
+  background: black;
+  border: 1px solid gray;
+}
+
+
 #footer-links {
   width: fit-content;
   border-bottom: 1px dotted #34345C;
