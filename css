@@ -1,46 +1,7 @@
-.pages > a:nth-of-type(9) {
-  content: url("https://files.catbox.moe/p5ijef.png");
-}
-.pages > a:nth-of-type(8) {
-  content: url("https://files.catbox.moe/2g311g.png");
-}
-.pages > a:nth-of-type(7) {
-  content: url("https://files.catbox.moe/9bgtdi.png");
-}
-.pages > a:nth-of-type(6) {
-  content: url("https://files.catbox.moe/7es4ur.png");
-}
-.pages > a:nth-of-type(5) {
-  content: url("https://files.catbox.moe/mwid20.png");
-}
-.pages > a:nth-of-type(4) {
-  content: url("https://files.catbox.moe/2dj0d0.png");
-}
-.pages > a:nth-of-type(3) {
-  content: url("https://files.catbox.moe/v4g244.png");
-}
-.pages > a:nth-of-type(2) {
-  content: url("https://files.catbox.moe/w4zm0u.png");
-}
-
-.pages > strong > a {
-  content: url("https://files.catbox.moe/gxc5sp.png");
-  border-right: 1px solid black;
-  position: relative;
-  bottom: 7px;
-  left: -9px;
-}
-
 .pages > a {
-  content: url("https://files.catbox.moe/s1q4uu.png");
-  position: relative;
-  top: -7px;
-  border-right: 1px solid black;
-  right: 9px;
-}
-
-.pages {
-  font-size: 0px !important;
+  font-size: 12px !important;
+  color: black !important;
+  transform: translate(0px) !important;
 }
 
 .depagelink {
@@ -64,7 +25,9 @@
   margin-top: -65px !important;
   margin-left: 105px !important;
   font-family: 'Mona12';
-  color: #0000 !important;
+  font-size: 12px !important;
+  color: black !important;
+  transform: translate(0px) !important;
 }
 
 #footer-links {
