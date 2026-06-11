@@ -1,3 +1,7 @@
+.pagelist > * {
+  font-size: 12px !important;
+}
+
 .pages > strong > a, .depagelink {
   color: #00f !important;
 }
