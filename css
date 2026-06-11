@@ -1,4 +1,4 @@
-.pagelist > * {
+div.pagelist > * {
   font-size: 12px !important;
 }
 
@@ -9,7 +9,6 @@
 .pages > a {
   font-size: 12px !important;
   color: black !important;
-  transform: translate(0px) !important;
 }
 
 .pagelist {
@@ -18,14 +17,12 @@
   border-left: 0px none !important;
   background: linear-gradient(#7171ff, #33144d) !important;
   position: relative;
-  top: 93px;
-  height: 16px;
-  margin-top: -65px !important;
-  margin-left: 105px !important;
+  top: 28px;
+  height: 20px;
   font-family: 'Mona12';
-  font-size: 12px !important;
   color: black !important;
-  transform: translate(0px) !important;
+  left: 105px;
+  padding: 1px 6px !important;
 }
 
 #footer-links {
