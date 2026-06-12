@@ -148,7 +148,7 @@ input[value="Delete"]{
   display: inline;
   background: url("https://files.catbox.moe/ujz0fb.png");
   border-left: 1px solid black;
-  background: https: //litter.catbox.moe/mp8sab3cvfm6mpqh.png;
+  background: url("https://files.catbox.moe/ujz0fb.png");
   width: 34px;
   height: 22px;
   border: 1px solid black !important;
@@ -292,7 +292,7 @@ hr:nth-of-type(3), hr:nth-of-type(4) {
   color: #dcdcfc !important;
 }
 #navtopright a:last-of-type::after {
-  content: url("https://litter.catbox.moe/2ztxoe.png");
+  content: url("https://files.catbox.moe/bt33k2.png");
   position: relative;
   bottom: 2px;
 }
@@ -479,7 +479,7 @@ a.quotelink, .replylink:not(:hover) {
   color: #00f !important;
 }
 #twPrune {
-  content: url(https://i.ibb.co/R4g71C5q/nelsonmandela.png);
+  content: url("https://i.ibb.co/R4g71C5q/nelsonmandela.png");
   margin-top: -3px !important;
 }
 #watchList{
