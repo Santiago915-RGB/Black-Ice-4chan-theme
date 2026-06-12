@@ -1,3 +1,29 @@
+.hasNewReplies {
+  background: linear-gradient(to right, #77c2e7, black);
+  transform: translate(0px);
+}
+
+#threadWatcher {
+  border: 1px solid #0ff !important;
+}
+
+#twHeader {
+  font-size: 0px;
+  text-align: left;
+  transform: translate(0px);
+  height: fit-content;
+}
+#twHeader:before {
+  font-size: 16px;
+  content: "cirno@threadWatcher";
+  color: #0ff;
+}
+#twHeader:after {
+  font-size: 16px;
+  content: " ~ $";
+  color: #00f;
+}
+
 @font-face {
   font-family: "freeSerif";
   src: url("https://files.catbox.moe/4q9p6o.ttf");
@@ -13,7 +39,7 @@
 .pagelist, #togglePostFormLink, #boardNavDesktop > .boardList, .boardTitle, #navtopright {
   font-family: "Mona12" !important;
 }
-.threadWatcher, pre.prettyprint  {
+#threadWatcher, pre.prettyprint  {
   font-family: "Monaco 9";
 }
 .postInfo > input {
@@ -310,8 +336,8 @@ div.op {
   padding: 4px;
   border-radius: 2px;
 }
-.name, a, #threadWatcher, pre.prettyprint {
-  font-size: 16;
+.name a, #threadWatcher, pre.prettyprint {
+  font-size: 16px;
 }
 .name, a {
   color: #666 !important;
@@ -369,33 +395,33 @@ a.quotelink, .replylink:not(:hover) {
 }
 
 #threadWatcher {
-  background: #00f;
+  padding: 3px !important;
+  background: black;
   border: none;
   padding: 0;
 }
 #twHeader {
   font-weight: normal;
-  background: linear-gradient(#00f, black);
-  border: 1px solid black;
+  background: black;
   padding-top: 2px !important;
-  outline: 1px solid #00f;
+  font-family: "Monaco 9";
+  border-bottom: 0px;
 }
 #watchList > li {
   border-top: none !important;
   margin: 0 !important;
-  color: #00f;
+  color: #0ff;
 }
-#watchList > li > a {
-  color: #00f !important;
+#watchList > li > a:not(.archivelink) {
+  color: #0ff !important;
 }
 #twPrune {
   content: url("https://i.ibb.co/R4g71C5q/nelsonmandela.png");
   margin-top: -3px !important;
 }
 #watchList{
-  background: #000020;
-  border: 1px solid #00f;
-  background: linear-gradient(black, #00009e, black);
+  background: black;
+  border-top: 0px;
 }
 /* Borland code color palette */
 pre.prettyprint {
@@ -492,3 +518,9 @@ input[name="onlyimgdel"] {
   display: none;
 }
 */
+
+
+.archivelink {
+  color: #00f !important;
+  opacity: 1 !important;
+}
