@@ -1,8 +1,13 @@
+.cataloglink:nth-of-type(odd):after {
+  content: url("https://files.catbox.moe/hjc893.png");
+  position: absolute;
+}
+
 .cataloglink:nth-of-type(even), .cataloglink:nth-of-type(odd) {
   padding: 0px !important;
   border-left: 0px !important;
   margin: 0px !important;
-  margin-top: -1px;
+  margin-top: -1px !important;
 }
 
 .cataloglink:nth-of-type(odd) > a {
@@ -11,6 +16,7 @@
 
 .cataloglink:nth-of-type(even) > a {
   content: url("https://files.catbox.moe/yv46ez.png") !important;
+  border-right: 1px solid black;
 }
 
 .pageSwitcherForm > input {
@@ -23,7 +29,7 @@ border-bottom: 0px !important;
   margin-top: -1px;
 }
 
-div.pagelist > * {
+.pagelist > * {
   font-size: 12px !important;
 }
 
@@ -49,6 +55,9 @@ div.pagelist > * {
   left: 105px;
   padding: 1px 6px !important;
   margin-bottom: -24px !important;
+  border-right: 0px !important;
+  overflow: visible !important;
+  padding-right: 9px !important;
 }
 
 #footer-links {
