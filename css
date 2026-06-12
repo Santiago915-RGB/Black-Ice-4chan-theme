@@ -1,80 +1,83 @@
+@font-face {
+  font-family: "freeSerif";
+  src: url("https://files.catbox.moe/4q9p6o.ttf");
+}
+@font-face {
+  font-family: "Mona12";
+  src: url("https://files.catbox.moe/9xdrj3.otf");
+}
+@font-face {
+  font-family: "Monaco 9"
+  src: url("https://files.catbox.moe/x19i6d.otf");
+}
+.pagelist, #togglePostFormLink, #boardNavDesktop > .boardList, .boardTitle, #navtopright {
+  font-family: "Mona12" !important;
+}
+.threadWatcher, pre.prettyprint  {
+  font-family: "Monaco 9";
+}
 .postInfo > input {
   margin-top: 5px;
 }
-
-.op > .postInfo > input {
+.op > .postInfo > input, .pagelist, .absBotText, .stylechanger:after, .bottomCtrl, label > input, #navtopright > a:hover, .adl > a, #navtopright a:last-of-type::after, input[type="checkbox"] {
   position: relative;
+}
+.op > .postInfo > input {
   margin-top: 0px;
   top: 3px;
 }
-
 .wbtn[data-active="1"] {
   content: url("https://files.catbox.moe/bxzgy9.png");
 }
-
 .wbtn {
   content: url("https://files.catbox.moe/1na8mp.png");
 }
-
 .prev > form > input {
   background: url("https://files.catbox.moe/04q4w4.png") !important;
   margin-left: -7px;
 }
-
 .cataloglink:nth-of-type(odd):after {
   content: url("https://files.catbox.moe/hjc893.png");
-  position: absolute;
 }
-
+.cataloglink:nth-of-type(odd):after, .deleteform, #styleSelector, #toggleMsgBtn, #bannerCnt, .boardTitle, input[type="checkbox"]:checked::after, input[name="onlyimgdel"], input[name="onlyimgdel"]:before {
+  position: absolute !important;
+}
+.boardTitle:before, #togglePostFormLink, .boardBanner, #boardNavDesktop, body:after {
+  position: fixed !important;
+}
 .cataloglink:nth-of-type(even), .cataloglink:nth-of-type(odd) {
   padding: 0px !important;
   border-left: 0px !important;
   margin: 0px !important;
   margin-top: -1px !important;
 }
-
 .cataloglink:nth-of-type(odd) > a {
   content: url("https://files.catbox.moe/u8kfc6.png") !important;
 }
-
 .cataloglink:nth-of-type(even) > a {
   content: url("https://files.catbox.moe/yv46ez.png") !important;
   border-right: 1px solid black;
 }
-
 .pageSwitcherForm > input {
-border-bottom: 0px !important;
+  border-bottom: 0px !important;
   border-top: 0px !important;
   background: url("https://files.catbox.moe/fp0nbn.png") !important;
-  color: #0000;
   width: 29px;
   height: 22px;
   margin-top: -1px;
 }
-
-.pagelist > * {
+.pagelist > *, .pages > a, #togglePostFormLink, #boardNavDesktop > .boardList, .boardTitle {
   font-size: 12px !important;
 }
-
 .pages > strong > a, .depagelink {
   color: #00f !important;
 }
-
-.pages > a {
-  font-size: 12px !important;
-  color: black !important;
-}
-
 .pagelist {
-  border: 1px solid gray !important;
   border: 1px solid black !important;
   border-left: 0px none !important;
   background: linear-gradient(#7171ff, #33144d) !important;
-  position: relative;
   top: 28px;
   height: 20px;
-  font-family: 'Mona12';
-  color: black !important;
   left: 105px;
   padding: 1px 6px !important;
   margin-bottom: -24px !important;
@@ -82,72 +85,45 @@ border-bottom: 0px !important;
   overflow: visible !important;
   padding-right: 9px !important;
 }
-
 #footer-links {
   width: fit-content;
   border-bottom: 1px dotted #34345C;
   margin-top: -61px !important;
-  color: #0000;
 }
-
-.absBotDisclaimer {
-  display: none;
-}
-
-#delform > hr:last-of-type {
-  display: none !important;
-}
-
-.open-qr-wrap > a {
-  color: black !important;
-}
-
-#boardNavDesktopFoot {
-  display: none;
-}
-
-option {
+option, body {
   font-size: 14px;
 }
-
 .absBotText {
   width: 22rem;
   float: right;
   margin-right: 20rem;
-  position: relative;
   top: 40px;
 }
-
 .stylechanger:after {
   content: url("https://files.catbox.moe/hjc893.png");
-  position: relative;
   left: 73px;
 }
-
 .deleteform {
   display: flex;
   gap: 16px;
-  position: absolute;
   left: 14px;
 }
 .stylechanger {
-  font-size: 0px;
   margin-left: 35px;
 }
-
-
+.stylechanger, #styleSelector, input[value="Delete"], .bottomCtrl, .closed, #navtopright a:last-of-type {
+  font-size: 0px !important;
+}
 input[name="onlyimgdel"]:before {
-margin: 0px !important;
+  margin: 0px !important;
   height: 22px;
   width: 13px;
   border: 0px solid #0000 !important;
   content: url("https://files.catbox.moe/odfr4s.png");
   border-left: 1px solid black !important;
   border-right: 1px solid black !important;
-  position:absolute;
   right: 30px;
 }
-
 #styleSelector {
   background: url('https://files.catbox.moe/6z6tv0.png');
   border-left: 1px solid black;
@@ -157,14 +133,10 @@ margin: 0px !important;
   border-bottom: 0px;
   height: 22px;
   width: 31px;
-  font-size: 0px;
-  position: absolute;
   margin-left: 43px;
 }
-
-input[value="Delete"]{
+input[value="Delete"] {
   display: inline;
-  background: url("https://files.catbox.moe/ujz0fb.png");
   border-left: 1px solid black;
   background: url("https://files.catbox.moe/ujz0fb.png");
   width: 34px;
@@ -172,70 +144,50 @@ input[value="Delete"]{
   border: 1px solid black !important;
   border-top: none !important;
   border-bottom: none !important;
-  font-size: 0px;
   margin-left: -1px;
 }
-
 #absbot {
   text-align: right !important;
 }
-
 .bottomCtrl {
   float: left;
-  position: relative;
   bottom: -91px;
-  background: #f00;
   border: 1px solid black;
   background: linear-gradient(#7171ff, #33144d) !important;
   right: 5px;
   height: 22px;
   width: 116px;
-  font-size: 0px;
   border-right: 0px solid;
   margin-top: -63px;
 }
-
 label > input {
-  position: relative;
   top: 3px;
 }
-
 #op {
   margin-top: 1px;
   margin-bottom: 6px;
 }
-
 .boardTitle:before {
   content: url("https://files.catbox.moe/zif89e.png");
   width: 6px;
   height: 19;
-  position: fixed;
   top: 0px;
   margin-left: -16px;
 }
-
 #navtopright > a:hover {
   background: black;
   height: 16px;
-  position: relative;
   padding-top: 3px;
-  position: relative;
   bottom: 2px;
 }
 #togglePostFormLink > a:hover {
   bottom: 0px;
   padding-bottom: 2px;
 }
-
 .globalMessage, .globalMessage > h3 > a {
   color: #ff8080 !important;
 }
-
-.abovePostForm {
-  display: none;
-}
-#toggleMsgBtn{
-  position: absolute;
+#toggleMsgBtn {
   top: 4px;
   right: calc(40px + 7rem);
   content: url('https://files.catbox.moe/uw859r.png');
@@ -244,7 +196,6 @@ label > input {
   opacity: 1 !important;
   z-index: 2;
 }
-
 hr {
   border-top: 1px dotted black !important;
   height: 0;
@@ -254,43 +205,29 @@ hr.abovePostForm, hr.aboveMidAd {
 } hr.abovePostForm {
   margin-bottom: -2px !important;
 }
-hr:nth-of-type(3), hr:nth-of-type(4) {
-  display: none;
-}
 #ctrl-top > hr:nth-of-type(1){
   margin-top: 1px !important;
   border-top: 1px solid #0000 !important;
 }
-
-
-
 #ctrl-top > a, .navLinks > a, .thread-stats {
   text-shadow: 0px 0px;
 }
 .adl {
   text-align: right;
-  color: #0000;
 }
 .adl > a {
   border-bottom: 1px dotted;
-  position: relative;
   top: 1px;
   left: 1px;
 }
-
 .capcodeMod {
  color: #00f3ff !important;
 }
-
 #boardNavDesktop, #togglePostFormLink {
   z-index: 2 !important;
 }
-
 #togglePostFormLink {
-  position: fixed;
   top: 3px;
-  font-family: 'Mona12';
-  font-size: 12px !important;
   left: calc(230px + 20vw);
   font-weight: normal;
   transform: translate(0px);
@@ -301,28 +238,21 @@ hr:nth-of-type(3), hr:nth-of-type(4) {
 .aboveMidAd {
   padding-top: 24px;
 }
-
 .boardList > a {
   color: #dcdcfc !important;
 }
-
 #navtopright > a {
   color: #dcdcfc !important;
 }
 #navtopright a:last-of-type::after {
   content: url("https://files.catbox.moe/bt33k2.png");
-  position: relative;
   bottom: 2px;
 }
 #navtopright a:last-of-type {
-  font-size: 0px;
-padding: 0 !important;
+  padding: 0 !important;
 }
-
 #boardNavDesktop > .boardList {
   width: 20vw !important;
-  font-family: 'Mona12';
-  font-size: 12px;
   color: #dcdcfc !important;
   display: ruby;
   overflow-x: scroll;
@@ -330,58 +260,32 @@ padding: 0 !important;
   scrollbar-color: #0000 #0000 !important;
   margin-top: -2px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-@font-face {
-  font-family: 'freeSerif';
-  src: url('https://files.catbox.moe/4q9p6o.ttf');
-}
-
 #bannerCnt {
-  position: absolute !important;
   content: url('https://s.4cdn.org/image/title/9.png');
   left: 24rem;
   top: 1rem;
   border: 1px solid black;
 }
-
-#blotter, #bannerCnt, .middlead.center {
-  display: none;
+#blotter, #bannerCnt, .middlead.center, hr:nth-of-type(3), hr:nth-of-type(4), .abovePostForm, #boardNavDesktopFoot, .absBotDisclaimer, #delform > hr:last-of-type {
+  display: none !important;
 }
-
 html {
   scrollbar-color: #000 #0000 !important;
 }
-
 body {
   background: url('https://i.ibb.co/NdVdHff1/bg.png');
   background-repeat: repeat;
-  overflow-x: hidden;
-  background-size: 256px;
-  font-family: 'freeSerif';
-  font-size: 14px;
+  font-family: "freeSerif";
 }
 
-
-body, #boardNavDesktop, #navtopright, .intro span.name, #ctrl-top > a, .navLinks > a, .adl > a {
+body, #boardNavDesktop, #navtopright, .intro span.name, #ctrl-top > a, .navLinks > a, .adl > a, .pages > a, .pagelist, .open-qr-wrap > a {
   color: black !important;
 } .burichan_new .backlink a, .yotsuba_b_new .backlink a {
   color: #b4bec8 !important;
 } span.quote {
   color: #01796F !important;
-} div.sideArrows {
-  color: #0000;
+} div.sideArrows, .pageSwitcherForm > input, #footer-links, .adl, #navtopright {
+  color: #0000 !important;
 } .name {
   color: #88a6ff;
 } .post {
@@ -406,9 +310,11 @@ div.op {
   padding: 4px;
   border-radius: 2px;
 }
+.name, a, #threadWatcher, pre.prettyprint {
+  font-size: 16;
+}
 .name, a {
   color: #666 !important;
-  font-size: 16;
 }
 a.quotelink, .replylink:not(:hover) {
   color: #6867ec !important;
@@ -423,12 +329,9 @@ a.quotelink, .replylink:not(:hover) {
 }
 
 .boardTitle {
-  position: absolute !important;
   top: 3px !important;
   right: 11px !important;
   color: #dcdcfc !important;
-  font-size: 12px !important;
-  font-family: 'Mona12' !important;
   font-weight: normal !important;
   letter-spacing: 0px !important;
 }
@@ -438,26 +341,21 @@ a.quotelink, .replylink:not(:hover) {
   background: linear-gradient(#7171ff, #33144d) !important;
   padding-top: 19px !important;
   border-bottom: 1px solid black !important;
-  position: fixed !important;
   top: 0px !important;
   width: 100vw !important;
   left: 0px;
   z-index: 1 !important;
 }
-
 #boardNavDesktop {
   display: flex !important;
   flex-direction: row-reverse !important;
   width: fit-content !important;
-  position: fixed;
   z-index: 2;
   margin-top: -2px;
 }
 #navtopright {
   display: flex;
   flex-direction: inherit;
-  color: #0000 !important;
-  font-family: 'Mona12';
   margin-top: -3px;
 }
 #search-box {
@@ -470,10 +368,8 @@ a.quotelink, .replylink:not(:hover) {
   margin-top: 1px;
 }
 
-#threadWatcher{
+#threadWatcher {
   background: #00f;
-  font-family: 'Monaco 9';
-  font-size: 16px;
   border: none;
   padding: 0;
 }
@@ -507,8 +403,6 @@ pre.prettyprint {
   border: 1px solid black;
   outline: 2px solid #000080;
   padding: 2px;
-  font-family: 'Monaco 9';
-  font-size: 16px;
   transform: translate(0px, 0px);
   padding: 3px 5px !important;
   scrollbar-color: #808080 #000080 !important;
@@ -528,7 +422,6 @@ pre.prettyprint {
 
 body:after {
   content: "";
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -539,17 +432,13 @@ body:after {
   background-position: 100% 100%;
   background-size: 320px;
 }
-
 .closed:after {
   width: 371px;
   content: url("https://i.ibb.co/JjfPvSzt/sub-zero.gif")
 }
 .closed {
-  font-size: 0px !important;
   padding: 49.5px 0px !important;
 }
-
-/* checkboxes and threadhidebutton*/
 
 .threadHideButton {
   content: url("https://files.catbox.moe/r746dc.png");
@@ -557,31 +446,23 @@ body:after {
 .threadHideButton:hover {
   content: url("https://files.catbox.moe/ghhkvu.png");
 }
-
 input[type="checkbox"] {
   appearance: none;
   -webkit-appearance: none;
-
   width: 12px;
   height: 12px;
   border: 2px solid #4f46e5;
   background: #515151;
-  border-bottom: 1px solid #000 !important;
-  border-right: 1px solid #000 !important;
-  border-top: 1px solid #6464f2 !important;
-  border-left: 1px solid #6464f2 !important;
-  position: relative;
+  border: 1px solid;
+  border-color: #6464f2 black black #6464f2 !important;
   margin-left: 5px !important;
   margin-bottom: 1px !important;
 }
-
 input[type="checkbox"]:checked {
   background: #4f46e5;
 }
-
 input[type="checkbox"]:checked::after {
   content: "";
-  position: absolute;
   left: 5px;
   top: 1px;
   width: 5px;
@@ -590,28 +471,22 @@ input[type="checkbox"]:checked::after {
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
-
 input[type="checkbox"]:hover {
   border-color: #4338ca;
 }
-
 input[type="checkbox"]:focus-visible {
   outline: 2px solid #a5b4fc;
   outline-offset: 2px;
 }
-input[name="onlyimgdel"]{
-margin: 0px !important;
+input[name="onlyimgdel"] {
+  margin: 0px !important;
   height: 22px;
   width: 32px;
   border: 0px solid #0000 !important;
   background: url("https://files.catbox.moe/vl2wat.png");
-  position: absolute;
   border-left: 1px solid black !important;
   border-right: 1px solid black !important;
-
 }
-
-
 /* uncomment for hiding the "advertise on 4chan" element'
 .adl > a {
   display: none;
