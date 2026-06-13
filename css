@@ -1,3 +1,19 @@
+.archivelink {
+  color: #00f !important;
+  opacity: 1;
+}
+
+.hasNewReplies {
+  background: #00f;
+  transform: translate(0px);
+  color: black !important;
+  opacity: 1;
+}
+
+#watchList li:first-child {
+  padding-top: 0px;
+}
+
 .tExpanded > span > img {
   content: url("https://files.catbox.moe/3mxwle.png");
 }
@@ -6,30 +22,30 @@
   content: url("https://files.catbox.moe/tdg1h7.png");
 }
 
-.hasNewReplies {
-  background: linear-gradient(to right, #77c2e7, black);
-  transform: translate(0px);
-}
-
-#threadWatcher {
-  border: 1px solid #0ff !important;
-}
 
 #twHeader {
   font-size: 0px;
   text-align: left;
   transform: translate(0px);
   height: fit-content;
+  border: 1px solid #0ff;
+  
 }
 #twHeader:before {
   font-size: 16px;
   content: "cirno@threadWatcher";
   color: #0ff;
+  position: relative;
+  bottom: 2px;
+  text-shadow: 1px 1px #000;
 }
 #twHeader:after {
   font-size: 16px;
   content: " ~ $";
   color: #00f;
+  position: relative;
+  bottom: 2px;
+  text-shadow: 1px 1px #000;
 }
 
 @font-face {
@@ -406,14 +422,13 @@ a.quotelink, .replylink:not(:hover) {
 }
 
 #threadWatcher {
-  padding: 3px !important;
   background: black;
   border: none;
   padding: 0;
 }
 #twHeader {
   font-weight: normal;
-  background: black;
+  background: linear-gradient(black, #0ff);;
   padding-top: 2px !important;
   font-family: "Monaco 9";
   border-bottom: 0px;
@@ -427,12 +442,15 @@ a.quotelink, .replylink:not(:hover) {
   color: #0ff !important;
 }
 #twPrune {
-  content: url("https://i.ibb.co/R4g71C5q/nelsonmandela.png");
-  margin-top: -3px !important;
+  content: url("https://files.catbox.moe/veck30.png");
+  position: relative;
+  bottom: 3px;
 }
 #watchList{
   background: black;
   border-top: 0px;
+  border: 1px solid #0ff;
+  padding: 4px;
 }
 /* Borland code color palette */
 pre.prettyprint {
@@ -529,9 +547,3 @@ input[name="onlyimgdel"] {
   display: none;
 }
 */
-
-
-.archivelink {
-  color: #00f !important;
-  opacity: 1 !important;
-}
