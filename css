@@ -1,3 +1,11 @@
+.tExpanded > span > img {
+  content: url("https://files.catbox.moe/3mxwle.png");
+}
+
+.tCollapsed > span > img, .expbtn {
+  content: url("https://files.catbox.moe/tdg1h7.png");
+}
+
 .hasNewReplies {
   background: linear-gradient(to right, #77c2e7, black);
   transform: translate(0px);
@@ -52,8 +60,11 @@
   margin-top: 0px;
   top: 3px;
 }
-.wbtn[data-active="1"] {
+.wbtn:hover {
   content: url("https://files.catbox.moe/tas307.png");
+}
+.wbtn[data-active="1"] {
+  content: url("https://files.catbox.moe/wlfd01.png");
 }
 .wbtn {
   content: url("https://files.catbox.moe/1na8mp.png");
