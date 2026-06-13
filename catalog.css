@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "freeSerif";
+  src: url("https://files.catbox.moe/4q9p6o.ttf");
+}
+@font-face {
+  font-family: "Mona12";
+  src: url("https://files.catbox.moe/9xdrj3.otf");
+}
+@font-face {
+  font-family: "Monaco 9"
+  src: url("https://files.catbox.moe/x19i6d.otf");
+}
+
+body {
+  background: url('https://i.ibb.co/NdVdHff1/bg.png');
+  background-repeat: repeat;
+  font-family: "freeSerif";
+}
+
+.thread {
+  background: #000000c0;
+  color: #dcdcfc;
+  border: 1px solid black;
+  box-shadow: 0 0 25px black;
+  margin: 1rem;
+}

@@ -1,3 +1,6 @@
+
+
+
 .archivelink {
   color: #00f !important;
   opacity: 1;
@@ -542,8 +545,34 @@ input[name="onlyimgdel"] {
   border-left: 1px solid black !important;
   border-right: 1px solid black !important;
 }
+
+/* styling for the archive page */
+
+.flashListing {
+  border-collapse: collapse;
+}
+
+.flashListing tr:nth-of-type(odd) {
+  background: black !important;
+  color: #dcdcfc;
+}
+.flashListing tr:nth-of-type(even) {
+  background: #202020 !important;
+  color: #dcdcfc;
+}
+
+.postblock {
+  background: #808080;
+}
+
+.is_arclist > .navLinks {
+  margin-top: 18px !important;
+}
+
 /* uncomment for hiding the "advertise on 4chan" element'
 .adl > a {
   display: none;
 }
 */
+
+
