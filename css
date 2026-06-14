@@ -1,3 +1,46 @@
+#qrCaptchaContainer {
+  background: #666 !important;
+}
+
+#qrForm > div > input, #qrForm > div > textarea {
+  background: #666;
+}
+
+#qrFile {
+  background: #0000 !important;
+}
+
+#quickReply {
+  background: #000000c0 !important;
+  border: 1px solid black;
+  padding: 0;
+  color: #dcdcfc;
+}
+#threadWatcher {
+  display: none;
+}
+
+#qrHeader {
+  padding-top: 1px;
+  background: linear-gradient(#666, black);
+  border: none;
+
+  color: #dcdcfc;
+}
+
+form:first-of-type {
+  position: relative !important;
+  top: 45px !important;
+}
+#quickReply > form {
+  top: 0px !important;
+  margin-top: 4px;
+}
+
+.rules {
+  display: none;
+}
+
 #customMenuBox {
   background: #515151;
 }
@@ -21,7 +64,7 @@
 }
 
 a:hover {
-  color: #0ff !important;
+  color: #00f !important;
 }
 
 img.settings-expand[src="//s.4cdn.org/image/buttons/burichan/post_expand_minus.png"] {
@@ -32,7 +75,7 @@ img.settings-expand {
   content: url("https://files.catbox.moe/tdg1h7.png") !important;
 }
 
-.panelCtrl {
+.panelCtrl, #qrClose {
   content: url("https://files.catbox.moe/rlz26y.png");
 }
 
@@ -372,7 +415,7 @@ hr.abovePostForm, hr.aboveMidAd {
   top: 1rem;
   border: 1px solid black;
 }
-#blotter, #bannerCnt, .middlead.center, hr:nth-of-type(3), hr:nth-of-type(4), .abovePostForm, #boardNavDesktopFoot, .absBotDisclaimer, #delform > hr:last-of-type {
+#blotter, #bannerCnt, .middlead.center, hr:nth-of-type(3), body > hr:nth-of-type(4), .abovePostForm, #boardNavDesktopFoot, .absBotDisclaimer, #delform > hr:last-of-type {
   display: none !important;
 }
 html {
@@ -623,5 +666,3 @@ input[name="onlyimgdel"] {
   display: none;
 }
 */
-
-
