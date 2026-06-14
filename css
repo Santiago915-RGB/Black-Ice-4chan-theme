@@ -1,3 +1,19 @@
+#customMenuBox {
+  background: #515151;
+}
+
+#filter-list > tr > td > .fPattern, #filter-list > tr > td > .fBoards{
+  background: #515151;
+}
+
+#customCSSBox {
+  border: 1px solid #00f !important;
+}
+
+#customCSSMenu > div > .panelHeader {
+  border-bottom: 1px solid #dcdcfc !important;
+}
+
 .center > button {
   background: black;
   color: #dcdcfc;
@@ -25,9 +41,14 @@ img.settings-expand {
 }
 
 #settingsMenu > .extPanel {
-  background: #000000c0;
+  background: #000000c0 !important;
+
+}
+
+#customCSSMenu > div, .extPanel {
+  background: black !important;
   color: #dcdcfc;
-  border: 1px solid black;
+  border: 1px solid black !important;
 }
 
 .archivelink {
@@ -602,3 +623,5 @@ input[name="onlyimgdel"] {
   display: none;
 }
 */
+
+
