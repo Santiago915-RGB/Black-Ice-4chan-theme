@@ -1,3 +1,33 @@
+tr[id="captchaFormPart"] > td > div {
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  border: 1px solid black !important;
+  margin-top: 3px !important;
+}
+
+input[type=file] {
+  border: none !important;
+}
+
+input[type=file]::file-selector-button {
+  background: #666;
+  color: #dcdcfc;
+  border: 1px solid black;
+}
+
+table.postForm > tbody > tr > td > input, table.postForm > tbody > tr > td > textarea, tr[id="captchaFormPart"] > td > div {
+  background: #51515180 !important;
+}
+
+
+table.postForm > tbody > tr > td:first-child {
+  background: linear-gradient(#7171ff, #33144d) !important;
+  color: white;
+  font-family: 'Monaco 9';
+  font-size: 16px;
+  font-weight: normal;
+}
+
 #qrCaptchaContainer {
   background: #666 !important;
 }
