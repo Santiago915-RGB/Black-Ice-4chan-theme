@@ -1,3 +1,17 @@
+.next > form:first-of-type {
+  position: inherit !important;
+}
+
+.passNotice > a {
+  color: black !important;
+}
+.passNotice {
+  width: fit-content;
+}
+#postForm {
+  margin-top: 7px;
+}
+
 tr[id="captchaFormPart"] > td > div {
   border-radius: 0px !important;
   box-shadow: none !important;
@@ -17,6 +31,7 @@ input[type=file]::file-selector-button {
 
 table.postForm > tbody > tr > td > input, table.postForm > tbody > tr > td > textarea, tr[id="captchaFormPart"] > td > div {
   background: #51515180 !important;
+  box-shadow: 0 0 25px black !important;
 }
 
 
@@ -27,6 +42,7 @@ table.postForm > tbody > tr > td:first-child {
   font-size: 16px;
   font-weight: normal;
 }
+
 
 #qrCaptchaContainer {
   background: #666 !important;
@@ -46,16 +62,15 @@ table.postForm > tbody > tr > td:first-child {
   padding: 0;
   color: #dcdcfc;
 }
-#threadWatcher {
-  display: none;
-}
 
 #qrHeader {
   padding-top: 1px;
-  background: linear-gradient(#666, black);
+  background: linear-gradient(#7171ff, #33144d) !important;
   border: none;
-
+  font-family: "Monaco 9";
   color: #dcdcfc;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 form:first-of-type {
@@ -696,3 +711,7 @@ input[name="onlyimgdel"] {
   display: none;
 }
 */
+.pageSwitcherForm {
+  position: inherit !important;
+}
+
