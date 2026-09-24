@@ -1,5 +1,29 @@
-.next > form:first-of-type {
+@keyframes myAnimation {
+  0% {background: #0ff; color: #00f;}
+  50% {background: #0ff; color: #00f;}
+  51% {background: #00f; color: #0ff;}
+  100% {background: #00f; color: #0ff;}
+}
+
+.archivelink.hasNewReplies {
+  color: black !important;
+}
+
+#watchList > .next > form:first-of-type {
   position: inherit !important;
+}
+
+#watchList > li > span::before {
+  content: "-";
+  font-size: 10px;
+}
+#watchList > li > span {
+  font-size: 0px;
+}
+
+@font-face {
+  font-family: "Spleen";
+  src: url("https://files.catbox.moe/xipp3a.ttf");
 }
 
 .passNotice > a {
@@ -134,21 +158,22 @@ img.settings-expand {
 }
 
 #customCSSMenu > div, .extPanel {
-  background: black !important;
   color: #dcdcfc;
   border: 1px solid black !important;
 }
 
 .archivelink {
-  color: #00f !important;
   opacity: 1;
+  color: #00f !important;
 }
 
 .hasNewReplies {
-  background: #00f;
+  animation-name: myAnimation;
+  animation-duration: 4s;
   transform: translate(0px);
-  color: black !important;
   opacity: 1;
+  animation-iteration-count: infinite;
+  font-weight: normal;
 }
 
 #watchList li:first-child {
@@ -163,30 +188,22 @@ img.settings-expand {
   content: url("https://files.catbox.moe/tdg1h7.png");
 }
 
+#watchList a {
+  color: #0ff;
+}
 
 #twHeader {
   font-size: 0px;
   text-align: left;
   transform: translate(0px);
   height: fit-content;
-  border: 1px solid #0ff;
-  
 }
 #twHeader:before {
-  font-size: 16px;
-  content: "cirno@threadWatcher";
+  font-size: 10px;
+  content: "cirno@threadWatcher-btw:~ #";
   color: #0ff;
   position: relative;
   bottom: 2px;
-  text-shadow: 1px 1px #000;
-}
-#twHeader:after {
-  font-size: 16px;
-  content: " ~ $";
-  color: #00f;
-  position: relative;
-  bottom: 2px;
-  text-shadow: 1px 1px #000;
 }
 
 @font-face {
@@ -197,15 +214,11 @@ img.settings-expand {
   font-family: "Mona12";
   src: url("https://files.catbox.moe/9xdrj3.otf");
 }
-@font-face {
-  font-family: "Monaco 9"
-  src: url("https://files.catbox.moe/x19i6d.otf");
-}
 .pagelist, #togglePostFormLink, #boardNavDesktop > .boardList, .boardTitle, #navtopright {
   font-family: "Mona12" !important;
 }
 #threadWatcher, pre.prettyprint  {
-  font-family: "Monaco 9";
+  font-family: "Spleen";
 }
 .postInfo > input {
   margin-top: 5px;
@@ -467,7 +480,7 @@ html {
   scrollbar-color: #000 #0000 !important;
 }
 body {
-  background: url('https://files.catbox.moe/y5byzw.png');
+  background: url('https://files.catbox.moe/y5byzw.png'), black;
   background-repeat: repeat;
   font-family: "freeSerif";
 }
@@ -493,7 +506,7 @@ body, #boardNavDesktop, #navtopright, .intro span.name, #ctrl-top > a, .navLinks
   border: 1px solid black !important;
 }
 .post, div.op, post.highlight, .post.highlight {
-  background: #000000ce !important;
+  background: black !important;
 }
 .post, .post.highlight {
   box-shadow: 0 0 25px black;
@@ -505,9 +518,9 @@ div.op {
   border-radius: 2px;
 }
 .name a, #threadWatcher, pre.prettyprint {
-  font-size: 16px;
+  font-size: 10px;
 }
-.name, a {
+.name, a:not[:not(.hasNewReplies)] {
   color: #666 !important;
 }
 a.quotelink, .replylink:not(:hover) {
@@ -547,6 +560,10 @@ a.quotelink, .replylink:not(:hover) {
   z-index: 2;
   margin-top: -2px;
 }
+#customCSSMenu > div {
+  background: black !important;
+}
+
 #navtopright {
   display: flex;
   flex-direction: inherit;
@@ -563,15 +580,15 @@ a.quotelink, .replylink:not(:hover) {
 }
 
 #threadWatcher {
-  background: black;
-  border: none;
-  padding: 0;
+  background: #000000AF;
+  border: 1px solid #00ffff !important;
+  padding: 1px;
+  background: 1px solid #00000080;
 }
 #twHeader {
   font-weight: normal;
-  background: linear-gradient(black, #0ff);;
   padding-top: 2px !important;
-  font-family: "Monaco 9";
+  font-family: "Spleen";
   border-bottom: 0px;
 }
 #watchList > li {
@@ -579,19 +596,16 @@ a.quotelink, .replylink:not(:hover) {
   margin: 0 !important;
   color: #0ff;
 }
-#watchList > li > a:not(.archivelink) {
-  color: #0ff !important;
-}
 #twPrune {
-  content: url("https://files.catbox.moe/veck30.png");
+  content: url("https://files.catbox.moe/wn2tai.png");
   position: relative;
-  bottom: 3px;
+  bottom: 1px;
+  width: 10px; height: 10px;
+  margin-right: 1px;
 }
 #watchList{
-  background: black;
   border-top: 0px;
-  border: 1px solid #0ff;
-  padding: 4px;
+  list-style-type:none;
 }
 /* Borland code color palette */
 pre.prettyprint {
@@ -714,4 +728,3 @@ input[name="onlyimgdel"] {
 .pageSwitcherForm {
   position: inherit !important;
 }
-
