@@ -1,3 +1,9 @@
+
+#threadWatcher {
+  display: none !important;
+}
+
+
 @keyframes myAnimation {
   0% {background: #0ff; color: #00f;}
   50% {background: #0ff; color: #00f;}
@@ -68,7 +74,7 @@ table.postForm > tbody > tr > td:first-child {
 }
 
 
-#qrCaptchaContainer {
+#qrCaptchaContainer,  {
   background: #666 !important;
 }
 
@@ -412,6 +418,9 @@ hr.abovePostForm, hr.aboveMidAd {
 } hr.abovePostForm {
   margin-bottom: -2px !important;
 }
+.next > form:first-of-type {
+  position: inherit !important;
+}
 #ctrl-top > hr:nth-of-type(1){
   margin-top: 1px !important;
   border-top: 1px solid #0000 !important;
@@ -444,9 +453,6 @@ hr.abovePostForm, hr.aboveMidAd {
 }
 .aboveMidAd {
   padding-top: 24px;
-}
-.boardList > a {
-  color: #dcdcfc !important;
 }
 #navtopright > a {
   color: #dcdcfc !important;
@@ -485,6 +491,15 @@ body {
   font-family: "freeSerif";
 }
 
+
+.name, a:not(.archivelink, .hasNewReplies) {
+  color: #666 !important;
+}
+
+.boardList > a {
+  color: #dcdcfc !important
+}
+
 body, #boardNavDesktop, #navtopright, .intro span.name, #ctrl-top > a, .navLinks > a, .adl > a, .pages > a, .pagelist, .open-qr-wrap > a {
   color: black !important;
 } .burichan_new .backlink a, .yotsuba_b_new .backlink a {
@@ -520,9 +535,6 @@ div.op {
 .name a, #threadWatcher, pre.prettyprint {
   font-size: 10px;
 }
-.name, a:not[:not(.hasNewReplies)] {
-  color: #666 !important;
-}
 a.quotelink, .replylink:not(:hover) {
   color: #6867ec !important;
   text-decoration: none;
@@ -533,6 +545,10 @@ a.quotelink, .replylink:not(:hover) {
 }
 .post.highlight {
   border: 1px solid #6868ec !important;
+}
+
+#watchList > li > a:not(.archivelink):not(.hasNewReplies) {
+  color: #0ff !important;
 }
 
 .boardTitle {
