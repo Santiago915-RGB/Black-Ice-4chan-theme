@@ -19,10 +19,46 @@
   100% {background: #00f; color: #0ff;}
 }
 
+.depagelink, .pages > strong > a {
+  color: var(--blue-color1) !important;
+}
+
 .archivelink.hasNewReplies {
   color: black !important;
 }
 
+.pages, .prev {
+  margin-top: -1px;
+}
+
+.name, a:not(.archivelink, .hasNewReplies, .depagelink, .depagelink) {
+  color: var(--normal-color1) !important;
+}
+.pageSwitcherForm > input {
+  border: 1px solid black !important;
+  color: var(--normal-color0);
+  background: linear-gradient(var(--blue-color1), black) !important;
+  margin-top: 1px;
+}
+
+.deleteform > input[type="submit"], .stylechanger > select, .pagelist {
+  background: var(--bar-gradient) !important;
+  height: 19px !important;
+  border: 1px solid black !important;
+  color: var(--normal-color0) !important;
+  font-family: "freeSerif";
+}
+
+.pagelist, .pageSwitcherForm > input {
+  padding 0px !important;
+  font-family: "Mona12";
+  font-size: 12px !important;
+}
+.pagelist > div, .pages > a {
+  font-size: 12px !important;
+  color: var(--normal-color0) !important;
+  border: 0px !important;
+}
 
 #watchList > .next > form:first-of-type {
   position: inherit !important;
@@ -159,15 +195,15 @@ form:first-of-type {
 }
 
 img.settings-expand[src="//s.4cdn.org/image/buttons/burichan/post_expand_minus.png"] {
-  content: url("https://files.catbox.moe/3mxwle.png") !important;
+  content: url("https://i.ibb.co/QjkjrvtH/post-expand-minus.png") !important;
 }
 
 img.settings-expand {
-  content: url("https://files.catbox.moe/tdg1h7.png") !important;
+  content: url("https://i.ibb.co/zW2QbDJ2/post-expand-mayus.png") !important;
 }
 
 .panelCtrl, #qrClose {
-  content: url("https://files.catbox.moe/rlz26y.png");
+  content: url("https://i.ibb.co/9LD4Y37/post-expand-sage.png");
 }
 
 .panelHeader {
@@ -203,11 +239,11 @@ img.settings-expand {
 }
 
 .tExpanded > span > img {
-  content: url("https://files.catbox.moe/3mxwle.png");
+  content: url("https://i.ibb.co/QjkjrvtH/post-expand-minus.png");
 }
 
 .tCollapsed > span > img, .expbtn {
-  content: url("https://files.catbox.moe/tdg1h7.png");
+  content: url("https://i.ibb.co/zW2QbDJ2/post-expand-mayus.png");
 }
 
 #watchList a {
@@ -222,7 +258,7 @@ img.settings-expand {
 }
 #twHeader:before {
   font-size: 10px;
-  content: "cirno@threadWatcher-btw:~ #";
+  content: "cirno@threadWatcher:~ #";
   color: #0ff;
   position: relative;
   bottom: 2px;
@@ -258,16 +294,15 @@ img.settings-expand {
   top: 3px;
 }
 .wbtn:hover {
-  content: url("https://files.catbox.moe/tas307.png");
+  content: url("https://i.ibb.co/Jjqkhy3c/watch-thread-hover.png");
 }
 .wbtn[data-active="1"] {
-  content: url("https://files.catbox.moe/wlfd01.png");
+  content: url("https://i.ibb.co/6cPv9vc0/watch-thread-on.png");
 }
 .wbtn {
-  content: url("https://files.catbox.moe/1na8mp.png");
+  content: url("https://i.ibb.co/rGY0ZS7C/watch-thread-off.png");
 }
 .prev > form > input {
-  background: url("https://files.catbox.moe/04q4w4.png") !important;
   margin-left: -7px;
 }
 .cataloglink:nth-of-type(odd):after,  #toggleMsgBtn, #bannerCnt, .boardTitle, input[type="checkbox"]:checked::after {
@@ -279,14 +314,9 @@ img.settings-expand {
 #togglePostFormLink, #boardNavDesktop > .boardList, .boardTitle {
   font-size: 12px !important;
 }
-.pages > strong > a, .depagelink {
-  color: #00f !important;
-}
 
 #footer-links {
-  width: fit-content;
-  border-bottom: 1px dotted #34345C;
-  margin-top: -61px !important;
+  display: none;
 }
 option, body {
   font-size: 14px;
@@ -311,7 +341,6 @@ label > input {
   margin-bottom: 6px;
 }
 .boardTitle:before {
-  content: url("https://files.catbox.moe/zif89e.png");
   width: 6px;
   height: 19;
   top: 0px;
@@ -333,7 +362,7 @@ label > input {
 #toggleMsgBtn {
   top: 4px;
   right: calc(40px + 7rem);
-  content: url('https://files.catbox.moe/uw859r.png');
+  content: url('https://i.ibb.co/N6Rw34qH/message.png');
   width: 16px;
   height: 12px;
   opacity: 1 !important;
@@ -388,7 +417,7 @@ hr.abovePostForm, hr.aboveMidAd {
   color: var(--normal-color0) !important;
 }
 #navtopright a:last-of-type::after {
-  content: url("https://files.catbox.moe/bt33k2.png");
+  content: url("https://i.ibb.co/Jjby1V4Y/home-icon.png");
   bottom: 2px;
 }
 #navtopright a:last-of-type {
@@ -416,21 +445,16 @@ html {
   scrollbar-color: #000 #0000 !important;
 }
 body {
-  background: url('https://files.catbox.moe/y5byzw.png'), black;
+  background: url('https://i.ibb.co/Nd2SHhNx/bg.png'), black;
   background-repeat: repeat;
   font-family: "freeSerif";
-}
-
-
-.name, a:not(.archivelink, .hasNewReplies) {
-  color: var(--normal-color1) !important;
 }
 
 .boardList > a {
   color: var(--normal-color0) !important
 }
 
-body, #boardNavDesktop, #navtopright, .intro span.name, #ctrl-top > a, .navLinks > a, .adl > a, .pages > a, .pagelist, .open-qr-wrap > a {
+body, #boardNavDesktop, #navtopright, .intro span.name, #ctrl-top > a, .navLinks > a, .adl > a, .open-qr-wrap > a {
   color: black !important;
 } .burichan_new .backlink a, .yotsuba_b_new .backlink a {
   color: #4924cd !important;
@@ -549,7 +573,7 @@ a.quotelink, .replylink:not(:hover) {
   color: #0ff;
 }
 #twPrune {
-  content: url("https://files.catbox.moe/wn2tai.png");
+  content: url("https://i.ibb.co/Qv2Cqtmx/refresh.png");
   position: relative;
   bottom: 1px;
   width: 10px; height: 10px;
@@ -605,10 +629,10 @@ body:after {
 }
 
 .threadHideButton {
-  content: url("https://files.catbox.moe/rlz26y.png");
+  content: url("https://i.ibb.co/9LD4Y37/post-expand-sage.png");
 }
 .threadHideButton:hover {
-  content: url("https://files.catbox.moe/hch4tg.png");
+  content: url("https://i.ibb.co/RTwWxH49/post-expand-sage2.png");
 }
 input[type="checkbox"] {
   appearance: none;
@@ -673,4 +697,3 @@ input[type="checkbox"]:focus-visible {
 .pageSwitcherForm {
   position: inherit !important;
 }
-
