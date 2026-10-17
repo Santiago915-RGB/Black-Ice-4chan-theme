@@ -1,0 +1,146 @@
+:root {
+  --bar-transparency: 0.5;
+  --bar-shade-top: rgba(83, 86, 116, var(--bar-transparency));
+  --bar-shade-bot: rgba(0, 0, 0, 0.8);
+  --bar-gradient: linear-gradient(var(--bar-shade-top), var(--bar-shade-bot));
+
+  --normal-color0: #dcdcfc;
+  --normal-color1: #666;
+  --green-color: #01796F;
+  --blue-color1: #6867ec;
+  --blue-color2: hsl(240, 12%, 52%);
+  --black-color: black;
+}
+
+body {
+  background: url('https://i.ibb.co/Nd2SHhNx/bg.png'), black;
+  background-repeat: repeat;
+  font-family: "freeSerif";
+}
+
+.post, div.op, post.highlight, .post.highlight {
+  background: var(--black-color) !important;
+}
+
+body, #boardNavDesktop, #navtopright, .intro span.name, #ctrl-top > a, .navLinks > a, .adl > a, .open-qr-wrap > a {
+  color: black !important;
+}
+
+div.op {
+  shadow: 0 0 100px #000;
+  display: table;
+  padding: 4px;
+  border-radius: 2px;
+}
+.post {
+  box-shadow: 0 0 25px var(--black-color);
+}
+
+.post {
+  color: var(--normal-color0) !important;
+}
+
+.post, .post.highlight {
+  border: 0px solid var(--black-color) !important;
+}
+
+hr {
+  border-top: 1px dotted black !important;
+  height: 0;
+}
+
+a.quotelink, .replylink:not(:hover) {
+  color: var(--blue-color2) !important;
+  text-decoration: none;
+}
+
+.name, a:not(.archivelink, .hasNewReplies, .depagelink, .depagelink) {
+  color: var(--normal-color1) !important;
+}
+
+
+span.quote {
+  color: var(--green-color) !important;
+}
+
+.burichan_new .backlink a, .yotsuba_b_new .backlink a {
+  color: #4924cd !important;
+}
+
+.subject {
+  color: var(--blue-color1) !important;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #4f46e5;
+  background: transparent;
+  border: 1px solid;
+  border-color: var(--normal-color1) !important;
+  margin-left: 5px !important;
+  margin-bottom: 1px !important;
+}
+
+input, textarea, pre.prettyprint {
+  border: 1px solid var(--black-color) !important;
+background: #51515180;
+}
+
+.threadHideButton {
+  content: url("https://i.ibb.co/9LD4Y37/post-expand-sage.png");
+}
+.threadHideButton:hover {
+  content: url("https://i.ibb.co/RTwWxH49/post-expand-sage2.png");
+}
+.tExpanded > span > img {
+  content: url("https://i.ibb.co/QjkjrvtH/post-expand-minus.png");
+}
+div.sideArrows, #footer-links, .adl, #navtopright {
+  color: #0000 !important;
+}
+.tCollapsed > span > img, .expbtn {
+  content: url("https://i.ibb.co/zW2QbDJ2/post-expand-mayus.png");
+}
+
+body::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("https://i.ibb.co/Q3wg0742/goth-cirno.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 320px;
+  position: fixed !important;
+}
+/* this code is exclusive for this file */
+
+.boardTitle {
+  color: #00f;
+  text-shadow: 1px 1px black;
+}
+
+.pagelist {
+  background: var(--black-color) !important;
+  box-shadow: 0 0 25px var(--black-color);
+  border: 0px !important;
+}
+div.pagelist div.cataloglink {
+  border-left: 1px solid var(--normal-color1);
+}
+
+#styleSelector {
+  background: transparent !important;
+  border: 1px solid var(--black-color);
+}
+.boardList > a, #navtopright > a {
+  color: var(--black-color) !important;
+}
+.pageSwitcherForm > input {
+  margin-top: 1px;
+}
